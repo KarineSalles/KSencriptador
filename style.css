@@ -1,0 +1,87 @@
+* {
+background:#343A40;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+}
+
+.logoKs {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 30%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color:white;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color:white}
+.text-area focus {
+    outline: none;
+}
+
+.mensagem {
+    background: #343A40;
+    background-image: url(/imagens/boneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-left: 50px;
+    padding-left: 20px;
+    position: sticky;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: grey;
+    border: 1px solid darkgray;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: black;
+    border: 1px solid darkgray;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.informacao {
+    color:black;
+    font-size: 10px;
+}
